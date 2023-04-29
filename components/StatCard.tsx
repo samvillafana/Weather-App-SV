@@ -1,6 +1,6 @@
-"use client"
+"use client";
 
-import { Card, Metric, Text, Color } from "@tremor/react"
+import { Card, Metric, Text, Color } from "@tremor/react";
 
 
 type Props = {
@@ -20,4 +20,4 @@ function StatCard({title, metric, color}: Props) {
   
 }
 
-export default StatCard
+export default StatCard;
